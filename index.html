@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="FormHandeling">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/ic_launcher.png">
+
+    <title>CODE SCHOOL</title>
+
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   
+   
+  </head>
+  <body >
+
+    <!-- Static navbar -->
+	  <!-- header -->
+   <page-header></page-header>
+    <!-- -->
+    <!-- main content will come from routes -->
+    <div>
+    <div ng-view=""></div>
+    </div>
+
+   <!-- footer -->
+   <page-footer></page-footer>
+    <!-- -->
+
+  
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="app.js"></script>
+    <script src="src/controllers/todoController.js"></script>
+    
+  </body>
+   
+	
+  </body>
+</html>
